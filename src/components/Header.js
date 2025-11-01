@@ -7,8 +7,8 @@ const Header = () => {
 
     useEffect(() => {
         const handleScroll = () => {
-            const sections = ['hero', 'about', 'skills', 'projects', 'contact']; 
-            const scrollPosition = window.scrollY + 100;
+            const sections = ['hero', 'about', 'skills', 'projects', 'contact'];
+            const scrollPosition = window.scrollY + 64;  // Adjusted offset to match navbar height (~64px)
 
             sections.forEach(section => {
                 const element = document.getElementById(section);
@@ -35,7 +35,7 @@ const Header = () => {
 
     return (
         <motion.header
-            className="fixed top-0 w-full bg-black bg-opacity-90 backdrop-blur-md z-10 border-b border-gray-800"
+            className="fixed top-0 w-full bg-black bg-opacity-90 backdrop-blur-md z-50 border-b border-gray-800"  // Increased z-index to z-50
             initial={{ y: -100 }}
             animate={{ y: 0 }}
             transition={{ duration: 0.5 }}
@@ -55,18 +55,17 @@ const Header = () => {
                         {[
                             { id: 'hero', label: 'Home' },
                             { id: 'about', label: 'About' },
-                            { id: 'skills', label: 'Skills' },  // Already added
+                            { id: 'skills', label: 'Skills' },
                             { id: 'projects', label: 'Projects' },
                             { id: 'contact', label: 'Contact' }
                         ].map(({ id, label }) => (
                             <li key={id}>
                                 <button
                                     onClick={() => scrollToSection(id)}
-                                    className={`font-semibold transition-colors ${
-                                        activeSection === id
+                                    className={`font-semibold transition-colors ${activeSection === id
                                             ? 'text-orange-400'
                                             : 'text-white hover:text-orange-400'
-                                    }`}
+                                        }`}
                                 >
                                     {label}
                                 </button>
@@ -75,7 +74,7 @@ const Header = () => {
                     </ul>
                     {/* Resume Button */}
                     <motion.a
-                        href="https://drive.google.com/file/d/1eVxxGQG3LU287O6hB4mBtF_tXxmieGHV/view?usp=drive_link"  // Your Google Drive link
+                        href="https://drive.google.com/file/d/1eVxxGQG3LU287O6hB4mBtF_tXxmieGHV/view?usp=drive_link"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="bg-gradient-to-r from-orange-500 to-pink-500 text-white px-4 py-2 rounded-full font-bold shadow-lg hover:shadow-xl transition-all"
@@ -90,7 +89,7 @@ const Header = () => {
                 <div className="md:hidden flex items-center space-x-4">
                     {/* Resume Button for Mobile */}
                     <motion.a
-                        href="https://drive.google.com/file/d/1eVxxGQG3LU287O6hB4mBtF_tXxmieGHV/view?usp=drive_link"  // Your Google Drive link
+                        href="https://drive.google.com/file/d/1eVxxGQG3LU287O6hB4mBtF_tXxmieGHV/view?usp=drive_link"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="bg-gradient-to-r from-orange-500 to-pink-500 text-white px-3 py-1 rounded-full font-bold text-sm shadow-lg hover:shadow-xl transition-all"
@@ -100,8 +99,10 @@ const Header = () => {
                         Resume
                     </motion.a>
                     <button
-                        className="text-white focus:outline-none"
+                        className="text-white focus:outline-none focus:ring-2 focus:ring-orange-400 rounded"
                         onClick={() => setIsOpen(!isOpen)}
+                        aria-expanded={isOpen}
+                        aria-label="Toggle navigation menu"
                     >
                         <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             {isOpen ? (
@@ -127,18 +128,17 @@ const Header = () => {
                         {[
                             { id: 'hero', label: 'Home' },
                             { id: 'about', label: 'About' },
-                            { id: 'skills', label: 'Skills' },  // Added here
+                            { id: 'skills', label: 'Skills' },
                             { id: 'projects', label: 'Projects' },
                             { id: 'contact', label: 'Contact' }
                         ].map(({ id, label }) => (
                             <li key={id}>
                                 <button
                                     onClick={() => scrollToSection(id)}
-                                    className={`block w-full text-left font-semibold transition-colors ${
-                                        activeSection === id
+                                    className={`block w-full text-left font-semibold transition-colors ${activeSection === id
                                             ? 'text-orange-400'
                                             : 'text-white hover:text-orange-400'
-                                    }`}
+                                        }`}
                                 >
                                     {label}
                                 </button>
