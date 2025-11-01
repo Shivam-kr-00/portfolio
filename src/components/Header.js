@@ -7,7 +7,7 @@ const Header = () => {
 
     useEffect(() => {
         const handleScroll = () => {
-            const sections = ['hero', 'about', 'skills', 'projects', 'contact'];  // Added 'skills'
+            const sections = ['hero', 'about', 'skills', 'projects', 'contact']; 
             const scrollPosition = window.scrollY + 100;
 
             sections.forEach(section => {

@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 
 const Hero = () => {
     return (
-        <section id="hero" className="min-h-screen flex items-center justify-center bg-black px-8 relative overflow-hidden">
+        <section id="hero" className="min-h-screen flex items-center justify-center bg-black px-8 relative overflow-hidden pt-16 md:pt-0">
             {/* Subtle background gradient for depth */}
             <div className="absolute inset-0 bg-gradient-to-br from-black via-gray-900 to-black opacity-50"></div>
 
