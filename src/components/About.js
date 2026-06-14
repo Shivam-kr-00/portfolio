@@ -23,7 +23,7 @@ const About = () => {
                         About Me
                     </h2>
                     <p className="text-lg text-gray-300 mb-6 leading-relaxed">
-                        Hi, I'm Shivam, a passionate full-stack developer with over 1 years of experience crafting innovative web solutions. I specialize in React,and Node.js, turning ideas into seamless digital experiences.
+                        Hi, I'm Shivam, a passionate full-stack developer with over more than 2 years of experience crafting innovative web solutions. I specialize in React,and Node.js, turning ideas into seamless digital experiences.
                     </p>
                     <p className="text-lg text-gray-300 mb-8 leading-relaxed">
                         When I'm not coding, you'll find me exploring new technologies, contributing to open-source projects, or enjoying a good cup of coffee. I believe in clean code, user-centric design, and continuous learning.

@@ -41,16 +41,17 @@ const Hero = () => {
                         MERN-Stack Developer | React Enthusiast | Building the Future of Web
                     </p>
                     <div className="flex flex-col sm:flex-row justify-center lg:justify-start space-y-4 sm:space-y-0 sm:space-x-6">
-                        <motion.button
-                            className="bg-gradient-to-r from-orange-500 to-pink-500 text-white px-8 py-4 rounded-full font-bold shadow-lg hover:shadow-xl transition-all"
+                        <motion.a
+                            href="#projects"
+                            className="bg-gradient-to-r from-orange-500 to-pink-500 text-white px-8 py-4 rounded-full font-bold shadow-lg hover:shadow-xl transition-all text-center"
                             whileHover={{ scale: 1.05 }}
                             whileTap={{ scale: 0.95 }}
                         >
                             View My Work
-                        </motion.button>
+                        </motion.a>
                         <motion.a
                             href="#contact"
-                            className="border-2 border-orange-500 text-orange-500 px-8 py-4 rounded-full font-bold hover:bg-orange-500 hover:text-white transition-all"
+                            className="border-2 border-orange-500 text-orange-500 px-8 py-4 rounded-full font-bold hover:bg-orange-500 hover:text-white transition-all text-center"
                             whileHover={{ scale: 1.05 }}
                         >
                             Get In Touch

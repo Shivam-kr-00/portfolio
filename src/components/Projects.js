@@ -8,7 +8,7 @@ const Projects = () => {
             description: 'A full-stack e-commerce platform built with the MERN stack, featuring user authentication, product management, secure payments, and an admin dashboard.',
             techStack: ['React', 'Node.js', 'MongoDB', 'Express', 'Razorpay', 'Redis', 'Cloudinary', 'Jwt'],
             image: 'https://res.cloudinary.com/dahpi68b7/image/upload/v1761992244/Screenshot_2025-11-01_154700_iaf5ae.png',
-            liveLink: 'https://faishon-e-commerce-1.onrender.com/',
+            liveLink: 'https://faishon-e-commerce.vercel.app/',
             githubLink: 'https://github.com/Shivam-kr-00/Faishon-E-commerce'  // Replace with actual GitHub link
         },
         {
@@ -20,12 +20,12 @@ const Projects = () => {
             githubLink: 'https://github.com/Shivam-kr-00/MernStack-ChatApp'  // Replace with actual GitHub link
         },
         {
-            title: 'Movie Finder',
-            description: 'A Basic React-based web application that allows users to search for movies using the OMDB API.',
-            techStack: ['React', 'Tailwind CSS', 'Framer Motion'],
-            image: 'https://res.cloudinary.com/dahpi68b7/image/upload/v1761992089/Screenshot_2025-10-31_201949_auv59j.png',
-            liveLink: 'https://react-movie-two-tan.vercel.app/',
-            githubLink: 'https://github.com/Shivam-kr-00/React-Movie'  // Replace with actual GitHub link
+            title: 'Problem Solver',
+            description: 'A Developer Collaboration Platform where multiple developers can work together in real-time on the same problem, discuss solutions, write code collaboratively, and track progress until the problem is solved.',
+            techStack: ['React', 'Node.js', 'MongoDB', 'Socket.io', 'Express', 'Jwt', 'Redis', 'Cloudinary', 'OAuth', 'GitHub Webhooks'],
+            image: 'https://res.cloudinary.com/dahpi68b7/image/upload/v1781428388/Screenshot_2026-06-14_144113_l5ffnq.png',
+            liveLink: 'https://problem-solver-nu.vercel.app/',
+            githubLink: 'https://github.com/Shivam-kr-00/ProblemSolver'  // Replace with actual GitHub link
         }
     ];
 
