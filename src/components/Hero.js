@@ -20,7 +20,7 @@ const Hero = () => {
                         <div className="w-72 h-72 lg:w-88 lg:h-88 rounded-full bg-gradient-to-r from-orange-500 to-pink-500 p-1">
                             <img
                                 src="https://res.cloudinary.com/dahpi68b7/image/upload/v1761992771/Shivam_qz0hlu.jpg"
-                                alt="Shivam - Profile Picture"
+                                alt="Shivam Kumar"
                                 className="w-full h-full rounded-full object-cover shadow-2xl"
                             />
                         </div>
