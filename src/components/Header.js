@@ -74,7 +74,7 @@ const Header = () => {
                     </ul>
                     {/* Resume Button */}
                     <motion.a
-                        href="https://drive.google.com/file/d/1eVxxGQG3LU287O6hB4mBtF_tXxmieGHV/view?usp=drive_link"
+                        href="https://drive.google.com/file/d/13_-jG4LSEkudRVtWJ1sDr7iyIo6oyGGP/view?usp=drivesdk"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="bg-gradient-to-r from-orange-500 to-pink-500 text-white px-4 py-2 rounded-full font-bold shadow-lg hover:shadow-xl transition-all"
