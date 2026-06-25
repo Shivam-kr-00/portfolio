@@ -3,6 +3,14 @@ import { motion } from 'framer-motion';
 
 const Projects = () => {
     const projects = [
+         {
+            title: 'Problem Solver',
+            description: 'A Developer Collaboration Platform where multiple developers can work together in real-time on the same problem, discuss solutions, write code collaboratively, and track progress until the problem is solved.',
+            techStack: ['React', 'Node.js', 'MongoDB', 'Socket.io', 'Express', 'Jwt', 'Redis', 'Cloudinary', 'OAuth', 'GitHub Webhooks'],
+            image: 'https://res.cloudinary.com/dahpi68b7/image/upload/v1781428388/Screenshot_2026-06-14_144113_l5ffnq.png',
+            liveLink: 'https://problem-solver-nu.vercel.app/',
+            githubLink: 'https://github.com/Shivam-kr-00/ProblemSolver'
+        },
         {
             title: 'Fashion Hub',
             description: 'A full-stack e-commerce platform built with the MERN stack, featuring user authentication, product management, secure payments, and an admin dashboard.',
@@ -19,13 +27,14 @@ const Projects = () => {
             liveLink: 'https://mernstack-chatapp-ylu2.onrender.com',
             githubLink: 'https://github.com/Shivam-kr-00/MernStack-ChatApp'  // Replace with actual GitHub link
         },
+       
         {
-            title: 'Problem Solver',
-            description: 'A Developer Collaboration Platform where multiple developers can work together in real-time on the same problem, discuss solutions, write code collaboratively, and track progress until the problem is solved.',
-            techStack: ['React', 'Node.js', 'MongoDB', 'Socket.io', 'Express', 'Jwt', 'Redis', 'Cloudinary', 'OAuth', 'GitHub Webhooks'],
-            image: 'https://res.cloudinary.com/dahpi68b7/image/upload/v1781428388/Screenshot_2026-06-14_144113_l5ffnq.png',
-            liveLink: 'https://problem-solver-nu.vercel.app/',
-            githubLink: 'https://github.com/Shivam-kr-00/ProblemSolver'  // Replace with actual GitHub link
+            title: 'Json-Formatter',
+            description: 'A JSON formatter and validator built with React that helps developers format and validate their JSON data.',
+            techStack: ['React','Tailwind CSS'],
+            image: 'https://res.cloudinary.com/dahpi68b7/image/upload/v1782398100/Screenshot_2026-06-25_200202_biysb1.png',
+            liveLink: 'https://json-formatter-git-main-shivam-kumars-projects-67bb9861.vercel.app/',
+            githubLink: 'https://github.com/Shivam-kr-00/Json-formatter'  
         }
     ];
 
