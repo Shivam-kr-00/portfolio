@@ -38,7 +38,7 @@ const Hero = () => {
                         Hi, I'm Shivam
                     </h1>
                     <p className="text-xl lg:text-2xl mb-8 text-gray-400 max-w-2xl">
-                        MERN-Stack Developer | React Enthusiast | Building the Future of Web
+                        MERN Stack Developer | Backend Engineer | System Design Enthusiast
                     </p>
                     <div className="flex flex-col sm:flex-row justify-center lg:justify-start space-y-4 sm:space-y-0 sm:space-x-6">
                         <motion.a
