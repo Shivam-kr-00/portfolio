@@ -4,16 +4,22 @@ import { motion } from 'framer-motion';
 const Skills = () => {
     const skills = [
         { name: 'React', level: 85, icon: '⚛️' },
-        { name: 'Node.js', level: 85, icon: '🟢' },
-        { name: 'MongoDB', level: 80, icon: '🍃' },
-        { name: 'Express.js', level: 80, icon: '🚀' },
+        { name: 'Node.js', level: 95, icon: '🟢' },
+        { name: 'MongoDB', level: 90, icon: '🍃' },
+        { name: 'Express.js', level: 95, icon: '🚀' },
+        {name:'REST API', level: 95, icon: '🔄'},
         { name: 'JavaScript', level: 90, icon: '🟨' },
-        { name: 'Tailwind CSS', level: 90, icon: '🎨' },
+        { name: 'Tailwind CSS', level: 95, icon: '🎨' },
         { name: 'DSA', level: 95, icon: '🧠' },
         { name: 'C++', level: 90, icon: '⚡' },
         { name: 'Java', level: 50, icon: '☕' },
-        { name: 'Git', level: 70, icon: '📚' },
-        { name: 'Socket.io', level: 65, icon: '🔌' }
+        {name:'PYTHON', level: 80, icon: '🐍'},
+        { name: 'Socket.io', level: 85, icon: '🔌' },
+        {name:'JEST', level: 80, icon: '🧪'},
+        {nmae:'SUPERTEST', level: 80, icon: '🧪'},
+        {name:'POSTMAN', level: 90, icon: '🧪'},
+        { name: 'Git', level: 90, icon: '📚' },
+        {name:'DOCKER', level: 60, icon: '🐳'},
     ];
 
     return (

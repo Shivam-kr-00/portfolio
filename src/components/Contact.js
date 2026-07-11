@@ -22,7 +22,7 @@ const Contact = () => {
 
         try {
             await emailjs.send(
-                'service_ln4wxpr',  // Your service ID
+                'service_bfil1si',  // Your service ID
                 'template_1g6k56k',  // Paste the new one here
                 {
                     from_name: formData.name,
